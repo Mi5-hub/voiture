@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+input:focus, button:focus {
+    outline: none;
+  }
+.txt-blue{
+    color: #2c3f95;
+    font-family: Arimo;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 10px;
+}
+.btn{
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    color: #1EBDA8;
+    outline:none;
+    border-color: #701515;
+    
+}
+
+.prom{
+    font-size: 25;
+    font-weight: bold;
+    color: #fbffff;
+    width: 40px;
+    height: 20px;
+    background: #E9686B;
+    border-radius: 7px;
+
+}
+
+.slicky{
+    /* Vector 21 */
+width: 9px;
+height: 18px;
+border: 3px solid #1EBDA8;
+border-radius: 0.5px;
+
+}
+.but-marg{
+    margin-bottom: 50px;
+}
+.txt-name{
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#2c3f95
+}
+.txt-piece{
+    font-size: 9px;
+    font-weight: bold;
+}
+.img1{
+    /* IMG_0819 2 */
+width: 144px;
+height: 98px;
+}
+.img2{
+/* IMG_0820 3 */
+width: 120px;
+height: 95px;
+}
+.img3{
+    /* IMG_0820 2 */
+
+width: 81px;
+height: 105px;
+}
+.img4{
+    width: 117px;
+    height: 88px;
+}
+.img5{
+    /* IMG_0820 4 */
+
+width: 117px;
+height: 88px;
+}
+
+.img5{
+    /* IMG_0820 5 */
+position: absolute;
+width: 105px;
+height: 110px;
+
+
+}
+.bg-footer{
+    background: #3f51b5;
+    margin-bottom: 0;
+}
+.txt{
+    /* Meilleures ventes */
+
+
+width: 109px;
+height: 15px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+color: #1EBDA8;
+
+}
+.car {
+    width: 180px;
+    height: 200px;
+    border: 1px solid #e4e9f0;
+    margin-top: 50px;
+}
+.car:hover {
+    box-shadow: 0 18px 32px -18px #202124;
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: all .2s ease-in-out;
+}
+.nameMedic {
+    color: #09a766;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    justify-content: center;
+  }
+  .pagination > .active > a{
+    background-color: #1ebda8 ;
+    border-color: #1ebda8 ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #1ebda8 ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #1ebda8 ;
+    border-color: #1ebda8;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #1ebda8
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
